@@ -1,0 +1,20 @@
+var Bike = "Royal Enfield Classic 350";
+switch (Bike) {
+    case "Harley Davidson Iron 883":
+        console.log("Powered by a 883 cc engine");
+        break;
+        case "KTM 200 DUKE":
+            console.log("Powered by a 199.5cc BS6 engine");
+            break;
+            case "BMW R 1200":
+                console.log("Powered by a 1,170 cc engine");
+                break;
+                case "Royal Enfield Classic 350":
+                    console.log("Powered by a 349 cc engine ");
+                    break;
+                    case "Kawasaki Ninja 650":
+                        console.log("Powered by a 349 cc engine");
+                        break;
+                        default:
+                        console.log("While buying a two-wheeler, consider its engine capacity. It will help us to save money, and the cubic capacity will decide the mileage as well.")
+}
