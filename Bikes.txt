@@ -15,6 +15,9 @@ switch (Bike) {
                     case "Kawasaki Ninja 650":
                         console.log("Powered by a 349 cc engine");
                         break;
-                        default:
-                        console.log("While buying a two-wheeler, consider its engine capacity. It will help us to save money, and the cubic capacity will decide the mileage as well.")
+                        case "Yamaha R15 V4":
+                            console.log("Powered by a 155 cc engine");
+                            break;
+                            default:
+                            console.log("While buying a two-wheeler, consider its engine capacity. It will help us to save money, and the cubic capacity will decide the mileage as well.")
 }

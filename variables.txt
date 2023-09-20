@@ -1,0 +1,19 @@
+var X = 0;
+var Y = "3-3";
+var Z = "0";
+
+if (X===Y) {
+    console.log("First Condition");
+}
+else if (X===Z) {
+    console.log("Second Condition");
+}
+else if (X==Y){
+    console.log("Third Conditon");
+}
+else if (X==Z) {
+    console.log("Fourth Condition");
+}
+else {
+    console.log("Game Over");
+}
